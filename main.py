@@ -1,8 +1,6 @@
-height = int(input("What is your height in inches? "))
+number = int(input("Enter a number: "))
 
-if height == 100:
-  print("You are the perfect height")
-elif height >= 60:
-  print("You are tall enough")
-elif height < 60:
-  print ("Sorry your not tall enough")
+if number % 2 == 0:
+  print("This is an even number")
+else:
+  print("This is an odd number")
